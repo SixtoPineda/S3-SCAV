@@ -17,7 +17,7 @@
 <p align="center">(Para realizar cada uno de estos pasos, reutilicé código de prácticas anteriores)</p>
 <p align="justify">Reutilicé el código siguiente: </p>
 <p align="center">ffmpeg -i <strong>{inputVideo}</strong> -vf scale=<strong>{width:high}</strong> -c:v <strong>{CodecType}</strong> <strong>{nameVideo}</strong>.mkv</p>
-<p align="justify">Donde le pedimos al usuario que nos introduzca el nombre del video con el que trabajar y realizo un bucle en python donde vamos creando cada uno de los videos mencionados anteriormente. Con este fin creé una lista con cada una de las resoluciones y sus respectivos códecs.</p>
+<p align="justify">Donde le pedimos al usuario que nos introduzca el nombre del video con el que trabajar y realizo un bucle en python donde vamos creando cada uno de los videos mencionados anteriormente. Con este fin creé una lista con cada una de las resoluciones y sus respectivos códecs. <br><br>Cabe destacar que todos los videos obtenidos son guardados como .mkv dado que, es el único formato que soporta el codec vp8, y para poder realizar el siguiente ejercicio, este tipo de extensión favorecía crear el nuevo container. </p>
 
 ##### **Resultados**
 
