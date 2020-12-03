@@ -61,7 +61,7 @@
 ##### **Resultados**
 
 <p align="center">
-  <img align="center" src="https://github.com/SixtoPineda/S3-SCAV/blob/main/EJERCICIO-2/result.png" />
+  <img align="center" src="https://github.com/SixtoPineda/S3-SCAV/blob/main/EJERCICIO-4/result.png" />
 </p>
 
 
