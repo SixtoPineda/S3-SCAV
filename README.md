@@ -53,19 +53,17 @@
 ### EJERCICIO-4
 #### ***Python: The online streaming***
 
-<p align="justify">En este ejercicio se nos pedía unificar dos funcionalidades: crear un container y saber que tipo de broadcasting mejor se adapta. Por lo tanto, junté ambos scripts de los dos ejercicios anteriores en uno.</p>
-
-
-
+<p align="justify">En este ejercicio se nos pedía crear un script que nos permita activar un streaming online mediante el cual transmitir el video que nosotros escojamos. Por ello, nuevamente cree un bucle donde se pedía al usuario el video con el que stremear. <br>Posteriormente procedíamos a realizar el comando: </p>
+<p align="center">ffmpeg -i {archivo} -v 0 -f mpegts udp://@224.2.2.2:2222</p>
+<p align="justify">con el que activamos el streaming con ese archivo en concreto. Para poder acceder al streaming tan solo debemos ir a nuestro programa de VLC, acceder a <strong>Medio</strong> y posteriormente <strong>Abrir Volcado de Red</strong>. En la ventana emergente colocar la dirección que establecemos para stremear: udp://@224.2.2.2:2222 (dirección expresamente para poder realizar streamings).</p>
+<p align="justify">Fuente: <br>https://stackoverflow.com/questions/43826675/how-to-live-stream-a-local-video-using-ffmpeg</p>
 
 ##### **Resultados**
 
-<p align="center">
-  <img align="center" src="https://github.com/SixtoPineda/P3-SCAV/blob/main/EJERCICIO-4/FOTOS/ejemplo-1.png" width="700"/>
-</p>
 
 
-<p align="justify">Como podemos ver, en el primer ejemplo, dado que nos encontramos con el codec de video h.265, éste no se ajusta con ningún tipo de broadcasting, por lo tanto, se nos muestra por pantalla que ninguno se ajusta.</p>
+
+<p align="justify">FALTA</p>
 
 
 
